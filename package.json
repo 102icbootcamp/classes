@@ -1,22 +1,13 @@
 {
-  "name": "6ees6ees6ees",
+  "name": "classes",
   "version": "1.0.0",
-  "description": "Fun with ES6 classes (also bees)",
-  "author": "Hack Reactor <curriculum.team@hackreactor.com>",
+  "description": "",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-core/register --bail"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hackreactor-labs/6ees6ees6ees.git"
-  },
   "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/hackreactor-labs/6ees6ees6ees/issues"
-  },
-  "private": true,
-  "homepage": "https://github.com/hackreactor-labs/6ees6ees6ees#readme",
   "babel": {
     "presets": [
       "es2015"
