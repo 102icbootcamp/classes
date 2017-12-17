@@ -11,7 +11,7 @@ class Grub {
     this.color = 'pink';
     this.food = 'jelly';
   }
-  eat () {
+  eat() {
     return 'Mmmmmmmmm jelly';
   }
 };
@@ -27,12 +27,7 @@ class Grub {
 // `eat` method from Grub super class
 
 class Bee extends Grub {
-  constructor () {
-    super ();
-    this.age = 5;
-    this.color = 'yellow';
-    this.job = 'Keep on growing';
-  }
+  
 };
 
 
@@ -49,18 +44,7 @@ class Bee extends Grub {
 // eat method that from Grub
 
 class HoneyMakerBee extends Bee{
-  constructor() {
-    super();
-    this.age = 10;
-    this.job = 'make honey';
-    this.honeyPot = 0;
-  }
-  makeHoney() {
-    this.honeyPot++;
-  }
-  giveHoney() {
-    this.honeyPot--;
-  }
+  
 };
 
 
@@ -80,17 +64,7 @@ class HoneyMakerBee extends Bee{
 // Add a few 'treasure' to the treasureChest and check
 
 class ForagerBee extends Bee {
-  constructor() {
-    super();
-    this.age = 10;
-    this.job = 'find pollen';
-    this.canFly = true;
-    this.treasureChest = [];
-
-  }
-  forage(treasure) {
-    this.treasureChest.push(treasure);
-  }
+  
 };
 
 // Create a RetiredForagerBee class that has
@@ -114,19 +88,6 @@ class ForagerBee extends Bee {
 
 
 class RetiredForagerBee extends ForagerBee {
-  constructor() {
-    super();
-    this.age = 40;
-    this.job = 'gamble';
-    this.canFly = false;
-    this.color = 'grey';
-
-  }
-  forage() {
-    return 'I am too old, let me play cards instead';
-  }
-  gamble() {
-    this.treasureChest.push('treasure');
-  }
+  
 };
 
